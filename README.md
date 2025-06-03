@@ -1,8 +1,6 @@
 
 # 🧾 TON Wallet Checker
 
-> Script Python sederhana untuk memeriksa informasi wallet TON (The Open Network) dari file `.txt`.
-
 ## ✅ Fitur Utama
 
 - Baca alamat dari file teks (`wallets.txt`)
@@ -22,18 +20,6 @@ pip install requests
 
 ---
 
-## 📁 Struktur Proyek
-
-```
-ton-wallet-checker/
-│
-├── ton_wallet_checker_from_file.py   # Script utama
-├── wallets.txt                       # Daftar alamat wallet
-├── results.txt                       # Hasil output setelah eksekusi
-└── README.md                         # Dokumentasi ini
-```
-
----
 
 ## 📥 Cara Penggunaan
 
@@ -47,7 +33,7 @@ ton-wallet-checker/
 2. **Jalankan script:**
 
    ```bash
-   python ton_wallet_checker_from_file.py
+   python ton.py
    ```
 
 3. **Lihat hasil di file `results.txt`.**
@@ -66,6 +52,19 @@ Memeriksa: EQD8zlqVszMOAuykfolEoJsxzhPCmpvCzZgxVgjAKXYazWV_
 Status: active | Saldo: 1.23 TON
 
 ✅ Hasil disimpan ke results.txt
+```
+
+---
+
+## 📁 Struktur Proyek
+
+```
+ton-wallet-checker/
+│
+├── ton_wallet_checker_from_file.py   # Script utama
+├── wallets.txt                       # Daftar alamat wallet
+├── results.txt                       # Hasil output setelah eksekusi
+└── README.md                         # Dokumentasi ini
 ```
 
 ---
