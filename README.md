@@ -3,18 +3,6 @@
 
 > Script Python sederhana untuk memeriksa informasi wallet TON (The Open Network) dari file `.txt`.
 
-## 📌 Deskripsi
-
-Script ini membaca daftar alamat wallet TON dari file `wallets.txt`, lalu menggunakan API publik [toncenter.com](https://toncenter.com/api/v3/) untuk memeriksa informasi seperti:
-- Status wallet
-- Saldo dalam TON
-- Hash transaksi terakhir
-- Dan lainnya
-
-Hasil pemeriksaan akan ditampilkan di terminal dan disimpan ke file `results.txt`.
-
----
-
 ## ✅ Fitur Utama
 
 - Baca alamat dari file teks (`wallets.txt`)
@@ -24,7 +12,7 @@ Hasil pemeriksaan akan ditampilkan di terminal dan disimpan ke file `results.txt
 
 ---
 
-## 🛠️ Prasyarat
+## 🛠️ Install Library
 
 Pastikan kamu sudah menginstal Python dan library berikut:
 
